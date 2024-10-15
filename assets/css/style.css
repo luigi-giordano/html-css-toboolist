@@ -35,13 +35,16 @@ header .header-top span{
 
 main .main-top button{
   background-color: aqua;
+  padding: 5px 10px;
   
 }
 
 p{
   background-color: #50aadc;
+  height: 40px;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  
+  line-height: 40px;
+  border-radius: 20%;
 }
