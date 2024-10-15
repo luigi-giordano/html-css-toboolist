@@ -8,11 +8,13 @@ body{
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   
+  
 }
 
 header{
   background-color: #ffffff;
 }
+
 header .header-top img{
   width: 70px;
   vertical-align: middle;
@@ -33,5 +35,13 @@ header .header-top span{
 
 main .main-top button{
   background-color: aqua;
+  
+}
+
+p{
+  background-color: #50aadc;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
   
 }
