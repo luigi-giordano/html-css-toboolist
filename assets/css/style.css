@@ -26,6 +26,9 @@ header .header-top img{
 
 }
 
+
+
+
 header .header-top span{
   font-size: 3.5rem;
   vertical-align: middle;
@@ -36,7 +39,7 @@ header .header-top span{
   
 
 .container{
-  background-color: brown;
+  background-color: white;
   width: 70%;
   margin: 30px auto;
   margin-top: 30px;
@@ -58,11 +61,27 @@ header .header-top span{
   
 }
 
+.todocard-inner-list li::before{
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+
+
+
+
+}
 .todocard-inner-list li.checked::before{
   content: "\25BE";
+  color: green;
+  border: 1px solid green;
 }
 .todocard-inner-list li.cross::before{
   content: "\292B";
+  color: red;
+  border: 1px solid red;
 }
 .todocard-bottom{
   padding: 15px;
