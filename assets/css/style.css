@@ -5,6 +5,7 @@
 }
 
 body{
+  background-color: #F5F8FD;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   
@@ -25,15 +26,17 @@ header .header-top span{
   font-size: 3.5rem;
   vertical-align: middle;
   
+  
 }
   
 .container{
-  max-width: 1122px;
-  margin: 0 auto;
+  width: 70%;
+  margin: 30px auto;
+  margin-top: 30px;
 
 }
 
-main .container p{
+main .container .todocard{
   background-color: aqua;
   padding: 15px 5px;
   box-sizing: border-box;
@@ -41,16 +44,4 @@ main .container p{
   border-style: solid;
   vertical-align: middle;
 
-}
-
-p{
-  background-color: #46aaef;
-  width: 8%;
-  height: 30px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 20%;
-  display: inline-block;
-  
 }
