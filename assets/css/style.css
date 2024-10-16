@@ -91,6 +91,19 @@ header .header-top span{
   content: "\25BE";
 }
 
+.todocard-bottom ul li::after{
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10px;
+
+}
+
+.todocard-bottom ul li.etichetta::after{
+  content: "Editorial";
+  background-color: blue;
+}
+
 
 ul{
   list-style: none;
